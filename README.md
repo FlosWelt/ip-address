@@ -1,22 +1,18 @@
 # IP-Address
-An easy to use web app made in Vuejs and Tailwindcss.
-The App uses https://www.ipify.org/ to get the users 
-puplic IPv4 ip.
+A simple Web app for getting and lookinup Ip Addresses using Nextjs, Tailwind Css 
+and varius third party APIs
 
 
 # Screenshots
 A few pictures of the site 
+-Get Ip Address Page(Home)
+![Screenshot from 2022-03-11 13-51-01](https://user-images.githubusercontent.com/76884340/157869941-b5756483-61f1-42f9-94f1-fbe0d61aa347.png)
 
-![First time look](https://user-images.githubusercontent.com/76884340/147294115-6c2d95e8-5cf5-48f4-ae4a-ae91eecb01d8.png)
+-Ip Address lookup page(ip)
+![Screenshot from 2022-03-11 13-53-10](https://user-images.githubusercontent.com/76884340/157870202-f0544745-ee9b-41d4-b053-0d3aa9f599b4.png)
 
-
-![After coping](https://user-images.githubusercontent.com/76884340/147285141-3841d60a-a820-44a0-b112-b0b1abe745c1.png)
-
-
-Gif:
-
-![gif of site](https://user-images.githubusercontent.com/76884340/147285399-c38bc174-e74f-4cfb-b7f4-41105499a155.gif)
-
+-Ip Address lookup(domain)
+![Screenshot from 2022-03-11 14-10-24](https://user-images.githubusercontent.com/76884340/157872672-4ecd6079-5f3c-4b8a-81ec-a2e8939224bb.png)
 
 # Run localy
 
