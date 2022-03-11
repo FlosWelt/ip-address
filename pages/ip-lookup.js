@@ -11,7 +11,7 @@ export default function Home() {
   const [isLooading, setLooading] = useState(false)
   useEffect(() => {
     setLooading(true)
-    fetch(`http://ip-api.com/json/`)
+    fetch(`https://ipwhois.app/json/`)
       .then((res) => res.json())
       .then((info) => {
         setInfo(info)
@@ -21,7 +21,7 @@ export default function Home() {
 
 
   const { register, handleSubmit } = useForm();
-  const onSubmit = data => fetch(`http://ip-api.com/json/${data.ip}`)
+  const onSubmit = data => fetch(`https://ipwhois.app/json/${data.ip}`)
   .then((res) => res.json())
   .then((info) => {
     setInfo(info)});
@@ -46,15 +46,15 @@ export default function Home() {
      <button type="submit" className="inline-block text-black font-semibold rounded-r-lg border-4 -mx-6 py-1 px-2 bg-white hover:text-white hover:bg-gray-900">Search</button>
      </form>
        <h2 className=" text-red-800 text-left mx-5 my-2 font-semibold text-lg">{info.message}</h2>
-       <h2 className=" text-white text-left mx-5 my-2 font-semibold text-lg">Ip: {info.query}</h2>
+       <h2 className=" text-white text-left mx-5 my-2 font-semibold text-lg">Ip: {info.ip}</h2>
        <h2 className=" text-white text-left mx-5 my-2 font-semibold text-lg">Country: {info.country}</h2>
-       <h2 className=" text-white text-left mx-5 my-2 font-semibold text-lg">Region/State: {info.regionName}</h2>
+       <h2 className=" text-white text-left mx-5 my-2 font-semibold text-lg">Region/State: {info.region}</h2>
        <h2 className=" text-white text-left mx-5 my-2 font-semibold text-lg">City: {info.city}</h2>
-       <h2 className=" text-white text-left mx-5 my-2 font-semibold text-lg">Zip Code: {info.zip}</h2>
+       <h2 className=" text-white text-left mx-5 my-2 font-semibold text-lg">Continent: {info.continent}</h2>
        <h2 className=" text-white text-left mx-5 my-2 font-semibold text-lg">Timezone: {info.timezone}</h2>
        <h2 className=" text-white text-left mx-5 my-2 font-semibold text-lg">Isp: {info.isp}</h2>
        <h2 className=" text-white text-left mx-5 my-2 font-semibold text-lg">Organisation: {info.org}</h2>
-       <h2 className=" text-white text-left mx-5 my-2 font-semibold text-lg">As: {info.as}</h2>
+       <h2 className=" text-white text-left mx-5 my-2 font-semibold text-lg">As: {info.asn}</h2>
       </div>
      </div>
      <Footer/>
