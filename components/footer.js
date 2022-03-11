@@ -14,10 +14,10 @@ export default function Footer() {
             <a className="inline-block text-gray-300 hover:text-slate-500 px-2" >Privacy Policy</a>
             </Link>
             <Link href="https://floswelt.com/imprint.html">
-            <a className="inline-block text-gray-300 hover:text-slate-500" target="_blank">Imprint</a>
+            <a className="inline-block text-gray-300 hover:text-slate-500" target="_blank" rel="noreferrer">Imprint</a>
             </Link>
             <Link href="https://github.com/floswelt/ip-address">
-            <a className="inline-block text-gray-300 hover:text-slate-500 px-2" target="_blank" >Source Code</a>
+            <a className="inline-block text-gray-300 hover:text-slate-500 px-2" target="_blank" rel="noreferrer" >Source Code</a>
             </Link>
         </div>
         </div>

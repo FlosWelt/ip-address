@@ -16,7 +16,7 @@ export default function Navbar() {
             
             <div className="w-3/12 flex items-center">
                 <Link href="/" className="text-2xl font-semibold">
-                   <a><img width="" height="19" className="sm:h-16 h-19 sm:visible invisible " src="/banner.png" alt="Logo Home Button"></img></a>
+                   <a><img width="auto" height="19" className="sm:h-16 h-19 sm:visible invisible " src="/banner.png" alt="Logo Home Button"></img></a>
                 </Link>
                 <Link href="/" className="text-2xl font-semibold">
                    <a className="text-lg font-semibold my-4 mx-4 text-white hover:text-slate-500 sm:invisible visible">Home</a>
