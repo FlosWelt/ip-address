@@ -25,8 +25,8 @@ export default function Home() {
   .then((res) => res.json())
   .then((info) => {
     setInfo(info)});
-  if (isLooading) return <p className="text-white bg-gray-900 h-screen">Loading...</p>
-  if (!info) return <p className="text-white bg-gray-900 h-screen">No ipwhois.io</p>
+  if (isLooading) return <p className="text-white bg-gray-900 h-screen hidden">Loading...</p>
+  if (!info) return <p className="text-white bg-gray-900 h-screen hidden">No ipwhois.io</p>
   return (
     <div className="bg-gray-900 h-screen bg-repeat">
       <Head>

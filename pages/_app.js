@@ -19,6 +19,8 @@ function MyApp({ Component, pageProps }) {
         <meta property="twitter:title" content="Ip Address - The place for IP Addresses"></meta>
         <meta property="twitter:description" content="The best place to get your Ip Address or lookup Ip Addresses without Ads"></meta>
         <meta property="twitter:image" content="/og-img.png"></meta>
+        <link rel="preconnect" href="https://api.country.is"></link>
+        <link rel="preconnect" href="https://api.ipify.org"></link>
       </Head>
   <NextNProgress eight={6} color="#4338C9" />
   <Component {...pageProps} />

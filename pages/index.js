@@ -35,10 +35,10 @@ export default function Home() {
     return `https://flagcdn.com/${src}.svg`
   }
   
-  if (isLoading) return <p className="text-white bg-gray-900 h-screen">Loading...</p>
-  if (!data) return <p className="text-white bg-gray-900 h-screen">No ipify.org</p>
-  if (isLooading) return <p className="text-white bg-gray-900 h-screen">Loading...</p>
-  if (!info) return <p className="text-white bg-gray-900 h-screen">No country.is</p>
+  if (isLoading) return <p className="text-white bg-gray-900 h-screen hidden">Loading...</p>
+  if (!data) return <p className="text-white bg-gray-900 h-screen hidden">No ipify.org</p>
+  if (isLooading) return <p className="text-white bg-gray-900 h-screen hidden">Loading...</p>
+  if (!info) return <p className="text-white bg-gray-900 h-screen hidden">No country.is</p>
   return (
     <div className="bg-gray-900 h-screen">
       <Head>
