@@ -11,7 +11,7 @@ export default function Home() {
   const [isLooading, setLooading] = useState(false)
   useEffect(() => {
     setLooading(true)
-    fetch(`http://ip-api.com/json/${data.ip}`)
+    fetch(`http://ip-api.com/json/`)
       .then((res) => res.json())
       .then((info) => {
         setInfo(info)
