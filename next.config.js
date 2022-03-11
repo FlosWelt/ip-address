@@ -11,4 +11,8 @@ module.exports = withPWA({
     register: true,
     skipWaiting: true,
   },
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
+  },
 });
