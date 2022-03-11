@@ -26,7 +26,7 @@ export default function Home() {
   .then((info) => {
     setInfo(info)});
   if (isLooading) return <p className="text-white bg-gray-900 h-screen">Loading...</p>
-  if (!info) return <p className="text-white bg-gray-900 h-screen">No ip-api.com</p>
+  if (!info) return <p className="text-white bg-gray-900 h-screen">No ipwhois.io</p>
   return (
     <div className="bg-gray-900 h-screen bg-repeat">
       <Head>
@@ -34,6 +34,16 @@ export default function Home() {
         <meta name="description" content="The best place to get your Ip Address or lookup Ip Addresses without Ads" />
         <link rel="icon" href="/logo.png" />
         <meta name="viewport"></meta>
+        <meta property="og:type" content="website"></meta>
+        <meta property="og:url" content="https://ip-address-omega.vercel.app/"></meta>
+        <meta property="og:title" content="Ip Address - The place for IP Addresses"></meta>
+        <meta property="og:description" content="The best place to get your Ip Address or lookup Ip Addresses without Ads"></meta>
+        <meta property="og:image" content="/og-img.png"></meta>
+        <meta property="twitter:card" content="summary_large_image"></meta>
+        <meta property="twitter:url" content="https://ip-address-omega.vercel.app/"></meta>
+        <meta property="twitter:title" content="Ip Address - The place for IP Addresses"></meta>
+        <meta property="twitter:description" content="The best place to get your Ip Address or lookup Ip Addresses without Ads"></meta>
+        <meta property="twitter:image" content="/og-img.png"></meta>
       </Head>
       <Navbar/>
       <div className="bg-gray-900 bg-blend-screen h-auto">
