@@ -45,7 +45,7 @@ export default function Home() {
         <title>Ip Address - The place for IP Addresses</title>
         <meta name="description" content="The best place to get your Ip Address or lookup Ip Addresses without Ads" />
         <link rel="icon" href="/logo.png" />
-        <meta name="viewport"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <meta property="og:type" content="website"></meta>
         <meta property="og:url" content="https://ip-address-omega.vercel.app/"></meta>
         <meta property="og:title" content="Ip Address - The place for IP Addresses"></meta>
