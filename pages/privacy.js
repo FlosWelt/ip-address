@@ -32,7 +32,7 @@ export default function Home() {
         <p className="text-center text-white">We use <a className="underline" href="https://ipify.org" target="_blank" rel="noreferrer" >ipify.org</a> to get your Ip Address, your country is fetched from <a className="underline" href="https://country.is" target="_blank" rel="noreferrer" >country.is</a>.</p>
         <p className="text-center text-white">The Ip Lookup function is powerd by <a className="underline" href="https://ipwhois.io" target="_blank" rel="noreferrer" >ipwhois.io</a></p>
         <p className="text-center text-white">We also use <a className="underline" href="https://www.cloudflare.com/web-analytics/" target="_blank" rel="noreferrer" >Cloudflare Webanalytics</a> as a privacy friedly analytics software</p>
-        <p className="text-center text-white ">By further conserns you can mail me under <a className="underline" href="mailto:contact@floswelt.com" target="_blank" rel="noreferrer" >contact@floswelt.com</a></p>
+        <p className="text-center text-white ">By further conserns you can mail me under <a className="underline" href="mailto:mail@ip-address.app" target="_blank" rel="noreferrer" >mail@ip-address.app</a></p>
         <p className="sm:my-80 my-40"></p>
     
     </div>
