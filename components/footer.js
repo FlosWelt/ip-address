@@ -10,6 +10,9 @@ export default function Footer() {
             <Link href="mailto:mail@ip-address.app" >
             <a className="inline-block text-gray-300 hover:text-slate-500 px-2" >mail@ip-address.app</a>
             </Link>
+            <Link href="https://api.ip-address.app" >
+            <a className="inline-block text-gray-300 hover:text-slate-500 px-2" >API</a>
+            </Link>
             <Link href="/privacy" >
             <a className="inline-block text-gray-300 hover:text-slate-500 px-2" >Privacy Policy</a>
             </Link>
