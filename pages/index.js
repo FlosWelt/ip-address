@@ -11,7 +11,7 @@ export default function Home() {
 
   useEffect(() => {
     setLoading(true)
-    fetch('https://api.ipify.org?format=json')
+    fetch('https://api64.ipify.org?format=json')
       .then((res) => res.json())
       .then((data) => {
         setData(data)
